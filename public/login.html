@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Generics Electronics</title>
+    <meta name="description" content="This is the description" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="nav main-nav">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="store.html">STORE</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+      <h1 class="band-name band-name-large">Generic Electronics</h1>
+      <!-- <div class="container">
+        <button type="button" class="btn btn-header">
+          Get our Latest Album
+        </button>
+      </div>
+      <button type="button" class="btn btn-header btn-play">&#9658;</button> -->
+    </header>
+
+    <section class="content-section container">
+      <h2 class="section-header">LOGIN</h2>
+      <div>
+        <div class="signup-form">
+          <form action="process.php" method="POST">
+            <div class="tour-row">
+              <input type="text" placeholder="UserName" name="username" id="username" />
+            </div>
+            <!-- <div class="tour-row">
+              <i class="fa fa-envelope"></i>
+              <input type="email" placeholder="Email" name="Email" />
+            </div> -->
+            <div class="tour-row">
+              <input type="password" placeholder="Password" name="password" id="password" />
+            </div>
+            <!-- <div class="tour-row">
+              <i class="fa fa-lock"></i>
+              <input
+                type="password"
+                placeholder="Confirm Password"
+                name="CPassword"
+              />
+            </div> -->
+            <button class="tour-item tour-btn btn btn-primary" type="submit" name="btn" onClick="auth(event)">
+              SIGNIN
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- <footer class="main-footer">
+      <div class="container main-footer-container">
+        <h6 class="band-name">Generic Electronics</h6>
+        <ul class="nav footer-nav">
+          <li>
+            <a href="https://www.youtube.com" target="_blank">
+              <img src="Images/YouTube Logo.png" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.spotify.com" target="_blank">
+              <img src="Images/Spotify Logo.png" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com" target="_blank">
+              <img src="Images/Facebook Logo.png" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer> -->
+    <script>
+      function auth(event) {
+        event.preventDefault();
+
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+
+        if (username === "admin@gmail.com" && password === "admin") {
+          window.location.replace("/store.html");
+        } else {
+          alert("Invalid information");
+          return;
+        }
+      }
+    </script>
+  </body>
+</html>

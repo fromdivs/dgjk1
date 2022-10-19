@@ -1,0 +1,56 @@
+{
+  "mobile": [
+    {
+      "id": 1,
+      "name": "Samsung M33",
+      "price": 23000,
+      "imgName": "samsung_galaxy_m33.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Xiomi 11",
+      "price": 22000,
+      "imgName": "xiomi_11.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Samsung M32",
+      "price": 21000,
+      "imgName": "samsung_galaxy_m33.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Xiomi 10",
+      "price": 20000,
+      "imgName": "xiomi_11.jpg"
+    }
+  ],
+  "refrigerator":[
+    {
+      "id": 5,
+      "name": "Samsung 1D",
+      "price": 20000,
+      "imgName": "samsung_ref_singleD.jpg"
+    },
+    {
+      "id": 6,
+      "name": "LG 1D",
+      "price": 19000,
+      "imgName": "lg_singleD.jpg"
+    }
+  ],
+  "television":[
+    {
+      "id": 7,
+      "name": "Samsung 32",
+      "price": 25000,
+      "imgName": "samsung_tv_32.jpg"
+    },
+    {
+      "id": 8,
+      "name": "LG 32",
+      "price": 24000,
+      "imgName": "lg_tv_32.jpg"
+    }
+  ]
+}
